@@ -83,4 +83,4 @@ WHERE d.dept_name = 'Sales' OR d.dept_name = 'Development'
 SELECT last_name, count(last_name) AS "Unique Last Name"
 FROM employees
 GROUP BY last_name
-ORDER BY last_name ASC
+ORDER BY last_name DESC
